@@ -1,0 +1,21 @@
+Student_ID,Name,Department,Maths,Physics,Chemistry,English,Computer,Attendance
+S001,Aarav Sharma,Computer Science,92,88,85,78,95,94
+S002,Priya Verma,Computer Science,85,79,82,88,91,90
+S003,Rohan Gupta,Computer Science,67,72,58,64,80,78
+S004,Ananya Singh,Computer Science,95,91,89,93,97,96
+S005,Karan Mehta,Computer Science,45,52,48,60,55,68
+S006,Sneha Patel,Electronics,78,82,75,70,72,88
+S007,Vikram Yadav,Electronics,88,85,90,76,81,92
+S008,Neha Joshi,Electronics,56,61,64,72,58,81
+S009,Arjun Reddy,Electronics,34,45,52,58,49,65
+S010,Divya Nair,Electronics,73,69,77,84,70,85
+S011,Rahul Mishra,Mechanical,62,58,55,66,60,74
+S012,Pooja Kumari,Mechanical,81,76,79,85,74,89
+S013,Amit Tiwari,Mechanical,49,42,38,55,47,62
+S014,Kavya Iyer,Mechanical,90,94,87,89,85,95
+S015,Siddharth Rao,Mechanical,70,65,72,68,75,80
+S016,Meera Chopra,Civil,84,80,83,91,78,93
+S017,Harsh Agarwal,Civil,58,63,60,59,65,76
+S018,Ishita Bansal,Civil,76,71,68,82,73,87
+S019,Deepak Saini,Civil,40,36,44,50,42,60
+S020,Tanvi Kulkarni,Civil,89,92,94,87,90,97

@@ -1,0 +1,124 @@
+
+======================================================================
+1. DATASET OVERVIEW
+======================================================================
+Records : 20
+Columns : ['Student_ID', 'Name', 'Department', 'Maths', 'Physics', 'Chemistry', 'English', 'Computer', 'Attendance']
+
+First 5 records:
+  Student_ID          Name        Department  Maths  Physics  Chemistry  English  Computer  Attendance
+0       S001  Aarav Sharma  Computer Science     92       88         85       78        95          94
+1       S002   Priya Verma  Computer Science     85       79         82       88        91          90
+2       S003   Rohan Gupta  Computer Science     67       72         58       64        80          78
+3       S004  Ananya Singh  Computer Science     95       91         89       93        97          96
+4       S005   Karan Mehta  Computer Science     45       52         48       60        55          68
+
+Missing values per column:
+Student_ID    0
+Name          0
+Department    0
+Maths         0
+Physics       0
+Chemistry     0
+English       0
+Computer      0
+Attendance    0
+
+======================================================================
+2. STUDENT RESULTS (Total, Average, Grade, Result)
+======================================================================
+Student_ID           Name       Department  Total  Average Grade Result Attendance_Status
+      S001   Aarav Sharma Computer Science    438     87.6     A   Pass                OK
+      S002    Priya Verma Computer Science    425     85.0     A   Pass                OK
+      S003    Rohan Gupta Computer Science    341     68.2     C   Pass                OK
+      S004   Ananya Singh Computer Science    465     93.0    A+   Pass                OK
+      S005    Karan Mehta Computer Science    260     52.0     D   Pass    Low Attendance
+      S006    Sneha Patel      Electronics    377     75.4     B   Pass                OK
+      S007   Vikram Yadav      Electronics    420     84.0     A   Pass                OK
+      S008     Neha Joshi      Electronics    311     62.2     C   Pass                OK
+      S009    Arjun Reddy      Electronics    238     47.6     F   Fail    Low Attendance
+      S010     Divya Nair      Electronics    373     74.6     B   Pass                OK
+      S011   Rahul Mishra       Mechanical    301     60.2     C   Pass    Low Attendance
+      S012   Pooja Kumari       Mechanical    395     79.0     B   Pass                OK
+      S013    Amit Tiwari       Mechanical    231     46.2     F   Fail    Low Attendance
+      S014     Kavya Iyer       Mechanical    445     89.0     A   Pass                OK
+      S015  Siddharth Rao       Mechanical    350     70.0     B   Pass                OK
+      S016   Meera Chopra            Civil    416     83.2     A   Pass                OK
+      S017  Harsh Agarwal            Civil    305     61.0     C   Pass                OK
+      S018  Ishita Bansal            Civil    370     74.0     B   Pass                OK
+      S019   Deepak Saini            Civil    212     42.4     F   Fail    Low Attendance
+      S020 Tanvi Kulkarni            Civil    452     90.4    A+   Pass                OK
+
+======================================================================
+3. OVERALL CLASS PERFORMANCE
+======================================================================
+Total students      : 20
+Class average       : 71.25
+Highest average     : 93.0 (Ananya Singh)
+Lowest average      : 42.4 (Deepak Saini)
+Students passed     : 17
+Students failed     : 3
+Pass percentage     : 85.0%
+
+======================================================================
+4. SUBJECT-WISE ANALYSIS
+======================================================================
+  Subject  Average  Highest  Lowest  Std_Dev         Topper  Students_Failed
+    Maths    70.60       95      34    18.05   Ananya Singh                1
+  Physics    70.05       94      36    16.74     Kavya Iyer                1
+Chemistry    70.00       94      38    16.34 Tanvi Kulkarni                1
+  English    73.75       93      50    13.00   Ananya Singh                0
+ Computer    71.85       97      42    15.71   Ananya Singh                0
+
+Best performing subject  : English (avg 73.75)
+Weakest subject          : Chemistry (avg 70.0)
+
+======================================================================
+5. GRADE DISTRIBUTION
+======================================================================
+Grade
+A+    2
+A     5
+B     5
+C     4
+D     1
+F     3
+
+======================================================================
+6. DEPARTMENT-WISE ANALYSIS
+======================================================================
+                  Students  Average_Marks  Avg_Attendance  Passed
+Department                                                       
+Computer Science         5          77.16            85.2       5
+Civil                    5          70.20            82.6       4
+Mechanical               5          68.88            80.0       4
+Electronics              5          68.76            82.2       4
+
+======================================================================
+7. TOP 5 PERFORMERS
+======================================================================
+Student_ID           Name       Department  Total  Average Grade
+      S004   Ananya Singh Computer Science    465     93.0    A+
+      S020 Tanvi Kulkarni            Civil    452     90.4    A+
+      S014     Kavya Iyer       Mechanical    445     89.0     A
+      S001   Aarav Sharma Computer Science    438     87.6     A
+      S002    Priya Verma Computer Science    425     85.0     A
+
+======================================================================
+8. FAILED STUDENTS / LOW ATTENDANCE
+======================================================================
+Failed students:
+Student_ID         Name  Average  Attendance
+      S009  Arjun Reddy     47.6          65
+      S013  Amit Tiwari     46.2          62
+      S019 Deepak Saini     42.4          60
+
+Students with attendance below 75%:
+Student_ID         Name  Attendance
+      S005  Karan Mehta          68
+      S009  Arjun Reddy          65
+      S011 Rahul Mishra          74
+      S013  Amit Tiwari          62
+      S019 Deepak Saini          60
+
+Processed results saved to student_results.csv
